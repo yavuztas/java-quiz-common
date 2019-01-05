@@ -1,7 +1,7 @@
 # Solutions for common java algorithm questions
 I have rearranged my java codes mainly used for online quizes before, to form a collection of solutions for common java algorithm and data structure questions. Note that Java 8 is required to build this project. Hope it helps to fellow developers!
-
-### Path Question:
+## Questions
+### Path:
 Write a function that provides change directory (cd) function for an abstract file system.<br>
 <br>Specification:<br>
 * Root path is '/'.
