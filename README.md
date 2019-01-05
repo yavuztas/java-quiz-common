@@ -12,12 +12,12 @@ Write a function that provides change directory (cd) function for an abstract fi
 * The function will not be passed any invalid paths.
 * Do not use built-in path-related functions.
 
-For example:<br>
+For example:
 ```java
 Path path = new Path("/a/b/c/d");
 path.cd('../x');
 System.out.println(path.getPath());
 ```
-<br>should display '/a/b/c/x'.
+should display '/a/b/c/x'.
 
 
