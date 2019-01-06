@@ -34,3 +34,7 @@ the function should return a collection with items "uninstall information" and "
 #### 3. Sorted Search: [SortedSearch.java](src/org/java/quiz/SortedSearch.java)
 Implement function countNumbers that accepts a sorted array of unique integers and, efficiently with respect to time used, counts the number of array elements that are less than the parameter lessThan.<br>
 For example, SortedSearch.countNumbers(new int[] { 1, 3, 5, 7 }, 4) should return 2 because there are two array elements less than 4.
+#### 4. Palindrome: [Palindrome.java](src/org/java/quiz/Palindrome.java)
+A palindrome is a word that reads the same backward or forward.<br>
+Write a function that checks if a given word is a palindrome. Character case should be ignored.<br>
+For example, isPalindrome("Geleveleg") should return true as character case should be ignored, resulting in "geleveleg", which is a palindrome since it reads the same backward and forward.
