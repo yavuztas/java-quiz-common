@@ -38,3 +38,7 @@ For example, SortedSearch.countNumbers(new int[] { 1, 3, 5, 7 }, 4) should retur
 A palindrome is a word that reads the same backward or forward.<br>
 Write a function that checks if a given word is a palindrome. Character case should be ignored.<br>
 For example, isPalindrome("Geleveleg") should return true as character case should be ignored, resulting in "geleveleg", which is a palindrome since it reads the same backward and forward.
+#### 5. Train Composition: [TrainComposition.java](src/org/java/quiz/TrainComposition.java)
+A TrainComposition is built by attaching and detaching wagons from the left and the right sides, efficiently with respect to time used.<br>
+For example, if we start by attaching wagon 7 from the left followed by attaching wagon 13, again from the left, we get a composition of two wagons (13 and 7 from left to right). Now the first wagon that can be detached from the right is 7 and the first that can be detached from the left is 13.<br>
+Implement a TrainComposition that models this problem.
