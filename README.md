@@ -31,5 +31,6 @@ For example, for the letter 'u' and an XML file:
 </folder>
 ```
 the function should return a collection with items "uninstall information" and "users" which can be any order.
-
-
+#### 3. Sorted Search: [SortedSearch.java](src/org/java/quiz/SortedSearch.java)
+Implement function countNumbers that accepts a sorted array of unique integers and, efficiently with respect to time used, counts the number of array elements that are less than the parameter lessThan.<br>
+For example, SortedSearch.countNumbers(new int[] { 1, 3, 5, 7 }, 4) should return 2 because there are two array elements less than 4.
