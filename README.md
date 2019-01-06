@@ -42,3 +42,9 @@ For example, isPalindrome("Geleveleg") should return true as character case shou
 A TrainComposition is built by attaching and detaching wagons from the left and the right sides, efficiently with respect to time used.<br>
 For example, if we start by attaching wagon 7 from the left followed by attaching wagon 13, again from the left, we get a composition of two wagons (13 and 7 from left to right). Now the first wagon that can be detached from the right is 7 and the first that can be detached from the left is 13.<br>
 Implement a TrainComposition that models this problem.
+#### 6. Circular Primes: [CircularPrimes.java](src/org/java/quiz/CircularPrimes.java)
+Implement a function that checks a prime number is circular.<br>
+For example: 197, lets circle 971, 719 are all both primes. So 197 is a circular prime.
+#### 7. Truncatable Primes: [TruncatablePrimes.java](src/org/java/quiz/TruncatablePrimes.java)
+Implement a function that checks a prime number is truncatable.<br>
+For example: 3797, left to right 797, 97, 7 and right to left 397, 37, 3 are all both primes. So 3797 is a truncatable prime
