@@ -63,23 +63,6 @@ public class TruncatablePrimes {
 
 	public static void main(String[] args) {
 
-		// int n = 1000000;
-		//
-		// TruncatablePrimes tp = new TruncatablePrimes();
-		// long time1 = System.currentTimeMillis();
-		//
-		// int sum = 0;
-		// for (int i = 2; i < n; i++) {
-		// if (tp.isTruncatable(i)) {
-		// sum += i;
-		// }
-		// }
-		//
-		// long time2 = System.currentTimeMillis();
-		// System.out.println(sum);
-		//
-		// System.out.println((time2 - time1) / 1000 + " seconds...");
-
 		int n = 1000000;
 		System.out.println("Calculating sum of truncatable prime numbers up to " + n + "...");
 
