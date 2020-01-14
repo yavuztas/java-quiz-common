@@ -1,14 +1,14 @@
-package org.java.quiz.test;
+package dev.yavuztas.samples.test;
 
-import org.java.quiz.QuickMergeHybridSort;
+import dev.yavuztas.samples.QuickMergeHybridSort;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class QuickMergeHybridSortUnitTest {
+public class QuickMergeHybridSortUnitTest {
 
     @Test
-    public void whenEmptyArrayGiven_thenEmptyArrayReturns(){
+    public void whenEmptyArrayGiven_thenEmptyArrayReturns() {
         int[] actual = new QuickMergeHybridSort().sort();
         int[] expected = new int[0];
 
@@ -16,7 +16,7 @@ class QuickMergeHybridSortUnitTest {
     }
 
     @Test
-    public void whenSingleElementArrayGiven_thenSameArrayReturns(){
+    public void whenSingleElementArrayGiven_thenSameArrayReturns() {
         int[] actual = new QuickMergeHybridSort(99).sort();
         int[] expected = new int[]{99};
 
@@ -24,7 +24,7 @@ class QuickMergeHybridSortUnitTest {
     }
 
     @Test
-    public void whenRandomArrayGiven_thenSortedArrayReturns(){
+    public void whenRandomArrayGiven_thenSortedArrayReturns() {
         int[] actual = new QuickMergeHybridSort(2, 5, 6, 3, 2, 4, 9).sort();
         int[] expected = new int[]{2, 2, 3, 4, 5, 6, 9};
 
@@ -32,7 +32,7 @@ class QuickMergeHybridSortUnitTest {
     }
 
     @Test
-    public void whenAllEqualElementArrayGiven_thenSameArrayReturns(){
+    public void whenAllEqualElementArrayGiven_thenSameArrayReturns() {
         int[] actual = new QuickMergeHybridSort(3, 3, 3, 3, 3, 3, 3).sort();
         int[] expected = new int[]{3, 3, 3, 3, 3, 3, 3};
 
@@ -40,7 +40,7 @@ class QuickMergeHybridSortUnitTest {
     }
 
     @Test
-    public void whenAllDifferentElementArrayGiven_thenSortedArrayReturns(){
+    public void whenAllDifferentElementArrayGiven_thenSortedArrayReturns() {
         int[] actual = new QuickMergeHybridSort(8, 4, 5, 7, 2, 1, 3).sort();
         int[] expected = new int[]{1, 2, 3, 4, 5, 7, 8};
 
@@ -48,7 +48,7 @@ class QuickMergeHybridSortUnitTest {
     }
 
     @Test
-    public void whenArrayWithZerosGiven_thenSortedArrayReturns(){
+    public void whenArrayWithZerosGiven_thenSortedArrayReturns() {
         int[] actual = new QuickMergeHybridSort(5, 3, 2, 0, 0, 3, 3).sort();
         int[] expected = new int[]{0, 0, 2, 3, 3, 3, 5};
 
@@ -56,13 +56,12 @@ class QuickMergeHybridSortUnitTest {
     }
 
     @Test
-    public void whenAllZeroArrayGiven_thenSameArrayReturns(){
+    public void whenAllZeroArrayGiven_thenSameArrayReturns() {
         int[] actual = new QuickMergeHybridSort(0, 0, 0, 0, 0, 0, 0).sort();
         int[] expected = new int[]{0, 0, 0, 0, 0, 0, 0};
 
         assertArrayEquals(expected, actual);
     }
-
 
 
 }

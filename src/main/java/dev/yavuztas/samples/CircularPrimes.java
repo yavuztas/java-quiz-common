@@ -1,14 +1,14 @@
-package org.java.quiz;
+package dev.yavuztas.samples;
+
+import dev.yavuztas.samples.utils.Stopwatch;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.java.quiz.utils.Stopwatch;
-
 /**
  * Solution for circular primes problem
- * 
+ *
  * @author Yavuz Tas
  *
  */

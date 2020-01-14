@@ -1,4 +1,4 @@
-package org.java.quiz;
+package dev.yavuztas.samples;
 
 /**
  * Custom implementation of an hybrid algoritm of Quick and Merge sort

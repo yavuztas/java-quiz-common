@@ -1,6 +1,4 @@
-package org.java.quiz;
-
-import java.util.Arrays;
+package dev.yavuztas.samples;
 
 public class MergeSort {
 

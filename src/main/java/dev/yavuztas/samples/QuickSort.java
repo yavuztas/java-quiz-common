@@ -1,7 +1,4 @@
-package org.java.quiz;
-
-import java.util.Arrays;
-import java.util.Collections;
+package dev.yavuztas.samples;
 
 public class QuickSort {
 

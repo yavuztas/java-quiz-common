@@ -1,12 +1,11 @@
-package org.java.quiz.test;
+package dev.yavuztas.samples.test;
 
-import org.java.quiz.MergeSort;
-import org.java.quiz.QuickMergeHybridSort;
+import dev.yavuztas.samples.MergeSort;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class MergeSortUnitTest {
+public class MergeSortUnitTest {
 
     @Test
     public void whenEmptyArrayGiven_thenEmptyArrayReturns() {

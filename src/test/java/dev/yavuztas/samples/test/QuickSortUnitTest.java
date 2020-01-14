@@ -1,11 +1,11 @@
-package org.java.quiz.test;
+package dev.yavuztas.samples.test;
 
-import org.java.quiz.QuickSort;
+import dev.yavuztas.samples.QuickSort;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class QuickSortUnitTest {
+public class QuickSortUnitTest {
 
     @Test
     public void whenEmptyArrayGiven_thenEmptyArrayReturns() {

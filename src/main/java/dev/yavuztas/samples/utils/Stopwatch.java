@@ -1,4 +1,4 @@
-package org.java.quiz.utils;
+package dev.yavuztas.samples.utils;
 
 /**
  * Utility class for calculate code execution time in seconds

@@ -1,25 +1,23 @@
-package org.java.quiz;
-
-import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
+package dev.yavuztas.samples;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
 /**
  * Solution for a function folderNames, which accepts a string containing an XML
  * file that specifies folder structure and returns all folder names that start
  * with a letter.
- * 
- * @author Yavuz Tas
  *
+ * @author Yavuz Tas
  */
 public class Folders {
 

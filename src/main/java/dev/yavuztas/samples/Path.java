@@ -1,4 +1,4 @@
-package org.java.quiz;
+package dev.yavuztas.samples;
 
 import java.util.ArrayList;
 import java.util.Arrays;

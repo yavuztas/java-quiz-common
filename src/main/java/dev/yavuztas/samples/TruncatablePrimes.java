@@ -1,6 +1,6 @@
-package org.java.quiz;
+package dev.yavuztas.samples;
 
-import org.java.quiz.utils.Stopwatch;
+import dev.yavuztas.samples.utils.Stopwatch;
 
 /**
  * Solution for Truncatable prime numbers problem
