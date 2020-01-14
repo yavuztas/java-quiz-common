@@ -3,3 +3,6 @@
 .project
 .settings/
 bin/
+/.idea/
+/out/
+/java-quiz-common.iml
