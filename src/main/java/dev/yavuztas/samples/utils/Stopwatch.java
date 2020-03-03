@@ -10,7 +10,6 @@ public class Stopwatch {
 
 	private boolean started;
 	private long startTime;
-	private long endTime;
 
 	public void start() {
 		this.started = true;
@@ -22,9 +21,8 @@ public class Stopwatch {
 		if (!this.started)
 			return 0d;
 
-		this.endTime = System.currentTimeMillis();
 		this.started = false;
-		return (this.endTime - this.startTime) / 1000d;
+		return (System.currentTimeMillis() - this.startTime) / 1000d;
 	}
 
 }
