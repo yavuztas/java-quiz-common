@@ -4,6 +4,6 @@ import java.math.BigInteger;
 
 public interface IFibonacciFinder {
 
-    BigInteger findNthElement(long n);
+    BigInteger findNthElement(int n);
 
 }

@@ -8,7 +8,7 @@ import java.math.BigInteger;
 public class RecursiveFibonacciFinder implements IFibonacciFinder {
 
     @Override
-    public BigInteger findNthElement(long n) {
+    public BigInteger findNthElement(int n) {
 
         if (n == 0)
             return BigInteger.valueOf(0);

@@ -1,12 +1,15 @@
 package dev.yavuztas.samples.fibonacci;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
 
+/**
+ * Time complexity is O(N) - linear
+ * Also, the most accurate one
+ */
 public class OptimizedFibonacciFinder implements IFibonacciFinder {
 
     @Override
-    public BigInteger findNthElement(long n) {
+    public BigInteger findNthElement(int n) {
 
         if (n == 0)
             return BigInteger.ZERO;
@@ -14,14 +17,14 @@ public class OptimizedFibonacciFinder implements IFibonacciFinder {
         if (n == 1)
             return BigInteger.ONE;
 
-        double prev = 0;
-        double next = 1;
+        BigInteger prev = BigInteger.ZERO;
+        BigInteger next = BigInteger.ONE;
         for (int i = 2; i <= n; i++) {
-            double temp = prev + next;
+            BigInteger temp = prev.add(next);
             prev = next;
             next = temp;
         }
-        return new BigDecimal(next).toBigInteger();
+        return next;
     }
 
 }

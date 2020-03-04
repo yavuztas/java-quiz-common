@@ -115,7 +115,7 @@ class FibonacciFinderTest {
         Stopwatch stopwatch = new Stopwatch();
 
         stopwatch.start();
-        BigInteger actual = optimizedFinder.findNthElement(300);
+        BigInteger actual = optimizedFinder.findNthElement(200);
         double seconds = stopwatch.stop();
 
         System.out.println(actual);
@@ -129,7 +129,7 @@ class FibonacciFinderTest {
         Stopwatch stopwatch = new Stopwatch();
 
         stopwatch.start();
-        BigInteger actual = fastFinder.findNthElement(300);
+        BigInteger actual = fastFinder.findNthElement(200);
         double seconds = stopwatch.stop();
 
         System.out.println(actual);
